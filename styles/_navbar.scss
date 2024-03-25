@@ -1,0 +1,17 @@
+.main__nav {
+    * {
+        color: $light100;
+    }
+
+    nav {
+        .page__links {
+            background: hsla(0, 0%, 13%, 1);
+            width: fit-content;
+            padding: 16px 31px;
+            display: flex;
+            gap: $base;
+            border-radius: 10px;
+            font-size: calc($base + 2px);
+        }
+    }
+}

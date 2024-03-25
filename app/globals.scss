@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&');
+@import "../styles/variables";
+@import "../styles/navbar";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+svg,
+iframe {
+    max-width: 100%;
+}
+
+body {
+    background: hsla(0, 0%, 10%, 1);
+}
